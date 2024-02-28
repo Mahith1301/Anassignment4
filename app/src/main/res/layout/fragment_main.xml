@@ -82,7 +82,7 @@
             android:layout_height="wrap_content"
             android:background="#4CAF50"
             android:textAlignment="center"
-            android:text="Update Note"
+            android:text="create Note"
             android:layout_marginLeft="50dp"
             android:textColor="#FFFFFF"
             android:textStyle="bold"

@@ -13,8 +13,9 @@
         android:theme="@style/Theme.Fourth_notes"
         tools:targetApi="31">
         <activity
-            android:name=".noteEditorActivity"
+            android:name=".editnotesactivity"
             android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -24,12 +25,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <provider
             android:name=".contentprovider"
             android:authorities="com.example.fourth_notes.provider"
             android:enabled="true"
-            android:exported="true">
-        </provider>
+            android:exported="true"/>
     </application>
 
 </manifest>

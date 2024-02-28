@@ -43,8 +43,7 @@ public class mainFragment extends Fragment {
                 // displaying a toast message
                 Toast.makeText(view.getContext(), "New Record Inserted", Toast.LENGTH_LONG).show();
 
-                title.setText("");
-                description.setText("");
+
 
             }
         });
